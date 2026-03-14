@@ -1,6 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 # import tools
 from langchain_core.tools import tool
+from flask import Flask
 
 print("installation successful")
 def add(a, b):
@@ -15,3 +16,5 @@ def get_weather(city: str) -> str:
     return f"The weather of {city} is sunny"
 output = get_weather.invoke("New York")
 print(output)
+
+app 

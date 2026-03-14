@@ -363,3 +363,12 @@ git config --global credential.helper 'cache --timeout=3600'  # Cache for 1 hour
   1. Immediately revoke the token in GitHub settings
   2. Generate a new token
   3. Update all systems using the old token
+
+
+```bash
+docker ps
+docker build -t docker-demo .
+docker run -p 8000:8000 docker-demo
+docker build -t manifoldailearning/docker-demo .
+docker push manifoldailearning/docker-demo
+```
