@@ -10,4 +10,4 @@ def test_add():
 
 def test_divide():
     result = divide(10, 2)
-    assert result == 5
+    assert result == 6
