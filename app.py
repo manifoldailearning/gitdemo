@@ -17,4 +17,4 @@ def get_weather(city: str) -> str:
 output = get_weather.invoke("New York")
 print(output)
 
-app 
+ 
